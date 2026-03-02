@@ -17,7 +17,7 @@ public class OOPSBANNERFOR {
 // Hint:
 // 1. Define a String array with a size equal to the number of lines in the banner
 // 2. Populate each index of the array with the corresponding banner line using String.join()
-// 3. Use a for-each loop to iterate through the array and print each line
+// 3. Use a for-each loop to iterate through the array and print each lin
     public static void main (String[] args){
         String[] lines = new String[7];
      lines[0] =  String.join(" " , "   ***   " , "    ***   " , " ******   " , "  *****   ");
