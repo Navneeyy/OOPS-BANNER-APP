@@ -13,13 +13,13 @@
 // This use case improves upon UC3 by using a String array to store banner lines
 // and iterating through them with a for-each loop, eliminating hardcoded print
 // statements and improving modularity and reusability.*/
-public class OOPSBANNERFOR {
+public class OOPSBannerApp {
 // Hint:
 // 1. Define a String array with a size equal to the number of lines in the banner
 // 2. Populate each index of the array with the corresponding banner line using String.join()
 // 3. Use a for-each loop to iterate through the array and print each lines
     public static void main (String[] args){
-        String[] lines = new String[7];
+    String[] lines = new String[7];
      lines[0] =  String.join(" " , "   ***   " , "    ***   " , " ******   " , "  *****   ");
      lines[1] =  String.join(" " , " **   ** " , "  **   ** " , " **    ** " , "**        ");
      lines[2] =  String.join(" " , "**     **" , " **     **" , " **    ** " , "**        ");
@@ -30,4 +30,4 @@ public class OOPSBANNERFOR {
     for (String line : lines){
         System.out.println(line);
     }
-}
+}}

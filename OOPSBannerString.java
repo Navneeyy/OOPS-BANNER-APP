@@ -15,7 +15,7 @@
 // drawbacks of using the operator for string concatenation which essentially creates
 // multiple intermediate String objects in memory leading to inefficiency.
 // Hint: Use String.join(" ", ...) to join the parts of each line with spaces.
-public class OOPSBannerApp {
+public class OOPSBannerString {
 // Main method to run the banner display
 // Use System.out.println() to print each line of the OOPS banner to create
 // the visual effect for the message "00PS". Construct each line using
